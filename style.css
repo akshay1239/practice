@@ -1,0 +1,67 @@
+body{
+  background-color: black;
+  margin:0;
+}
+.myImg{
+    float: right;
+    position: relative;
+    right: 143px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+
+}
+.myDiv1{
+
+}
+.myDiv2{
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  text-align: left;
+  position: relative;
+  left: 143px;
+  height:446px;
+  width: 540px;
+  background-color: #26004d;
+  color: white;
+  margin: 100px 0 0 0;
+}
+.myDiv3{
+   background-color: white;
+}
+.purple{
+  color: purple;
+}
+.heading01{
+  font-size: 28px;
+  font-family: 'Roboto Mono', monospace;
+  padding: 50px 0 0 50px;
+  width:80%;
+
+  margin: 0;
+}
+.para1{
+
+  width: 60%;
+  padding-left: 50px;
+  color: #C0C0C0;
+}
+.para2{
+
+  width: 15%;
+  display: inline-block;
+  padding: 0 25px 0 50px ;
+  margin: 75px 0 0 0;
+}
+.txt1{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.txt2{
+
+   color: #C0C0C0;
+}
+.p1{
+
+}
