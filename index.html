@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet" />
+        <link href="styles.css" rel="stylesheet" />
+        <title>Frontend Mentor | Stats preview card component</title>
+    </head>
+    <body>
+        <div class="center-hv">
+            <div class="card-container">
+                <main>
+                    <h1>Get <em>insights</em> that help your business grow.</h1>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+                    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .attribution{ display:none;}
-  </style>
-</head>
-<body>
-
-
-  <img class="myImg" src="image-header-desktop.jpg" alt="">
-
-
-<div class="myDiv2">
-  <h1 class="heading01">Get <i class="purple">insights</i> that help your bussiness grow.</h1>
-  <p class="para1">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, an doverall efficiency.</p>
-  <p class="para2 p1"><i class="txt1">10k+</i> <i class="txt2">COMPANIES</i></p>
-  <p class="para2 p2"><i class="txt1">314</i> <i class="txt2">TEMPLATES</i></p>
-  <p class="para2 p3"><i class="txt1">12M+</i> <i class="txt2">QUERIES</i></p>
-
-
-
-</div>
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+                    <div class="stats-container">
+                        <div class="stats-card">
+                            <h2>10k+</h2>
+                            <p>companies</p>
+                        </div>
+                        <div class="stats-card">
+                            <h2>314</h2>
+                            <p>templates</p>
+                        </div>
+                        <div class="stats-card">
+                            <h2>12M+</h2>
+                            <p>queries</p>
+                        </div>
+                    </div>
+                </main>
+                <div class="card-image">
+                    <img
+                        srcset="./img/image-header-mobile.jpg 654w, ./img/image-header-desktop.jpg 540w"
+                        sizes="(max-width: 800px) 654px, 540px"
+                        src="./img/image-header-mobile.jpg"
+                        alt=""
+                    />
+                    <!--           <img srcset="elva-fairy-480w.jpg 480w,
+             elva-fairy-800w.jpg 800w"
+     sizes="(max-width: 600px) 480px,
+            800px"
+     src="elva-fairy-800w.jpg"
+     alt="Elva dressed as a fairy">-->
+                </div>
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Dennis</a>.
+        </div>
+    </body>
 </html>
